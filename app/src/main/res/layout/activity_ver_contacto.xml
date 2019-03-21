@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:src="@drawable/uno"
+            android:id="@+id/iv_pelicula"
+            android:textAlignment="center"/>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical"
+                  android:layout_marginTop="10dp"
+                  android:layout_weight="1">
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Nombre"
+                  android:textSize="28dp"
+                  android:id="@+id/tv_nombre_v"
+                  android:textAlignment="center"/>
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Telefono:"
+                  android:textSize="24dp"
+                  android:id="@+id/tv_telefono_v"
+                  android:textAlignment="textStart"/>
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Correo:"
+                  android:textSize="24dp"
+                  android:id="@+id/tv_correo_v"
+                  android:textAlignment="textStart"/>
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Ciudad:"
+                  android:textSize="24dp"
+                  android:id="@+id/tv_ciudad_v"
+                  android:textAlignment="textStart"/>
+
+
+    </LinearLayout>
+</LinearLayout>
